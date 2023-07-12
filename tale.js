@@ -11,4 +11,16 @@ const kolobok = (name) => {
             break;
     }
 }
-console.log(kolobok('Дедушка'));
+
+
+const newYear = (actionName) => {
+    if (actionName === 'Дед Мороз'){
+        return `${actionName}! ${actionName}! ${actionName}!`
+    }else if (actionName === 'Снегурочка'){
+        return `${actionName}! ${actionName}! ${actionName}!`
+    }
+}
+
+
+//console.log(kolobok('Дедушка'));
+//console.log(newYear('Дед Мороз'))
